@@ -86,3 +86,10 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+var totalMonths = finances.length;
+var totalAmount = 0;
+var totalChange = 0;
+var greatestIncrease = [finances[0][0], 0];
+var greatestDecrease = [finances[0][0], 0];
+
