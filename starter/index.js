@@ -90,6 +90,9 @@ var finances = [
 var totalMonths = finances.length;
 var totalAmount = 0;
 var totalChange = 0;
-var greatestIncrease = [finances[0][0], 0];
-var greatestDecrease = [finances[0][0], 0];
+var greatestIncrease = ['', 0];
+var greatestDecrease = ['', 0];
+var previousMonthAmoutn = finances[0][1];
+var totalChange = 0;
+
 
