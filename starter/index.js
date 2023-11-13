@@ -92,7 +92,7 @@ var totalAmount = 0;
 var totalChange = 0;
 var greatestIncrease = ['', 0];
 var greatestDecrease = ['', 0];
-var previousMonthAmoutn = finances[0][1];
+var previousMonthAmount = finances[0][1];
 var totalChange = 0;
 
 for (var i = 0; i < totalMonths; i++) {
@@ -111,6 +111,7 @@ for (var i = 0; i < totalMonths; i++) {
   }
   previousMonthAmount = currentAmount;
 }
+
 
 
 
