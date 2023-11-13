@@ -114,4 +114,11 @@ for (var i = 0; i < totalMonths; i++) {
 
 var averageChange = totalChange / (totalMonths - 1);
 
+console.log("Financial Analysis");
+console.log("----------------");
+console.log("Total Months: " + totalMonths);
+console.log("Total: $" + totalAmount.toFixed(2));
+console.log("Average Change: $" + averageChange.toFixed(2));
+console.log("Greatest Increase in Profits/Losses: " + greatestIncrease[0] + " ($" + greatestIncrease[1].toFixed(2) + ")");
+console.log("Greatest Decrease in Profits/Losses: " + greatestDecrease[0] + " ($" + greatestDecrease[1].toFixed(2) + ")");
 
