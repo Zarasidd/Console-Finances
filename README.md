@@ -1,14 +1,14 @@
 # Console-Finances
 
-This is a simple JavaScript project for financial analysis. It processed a set of data of financial records to caculate financial metrics. This project was created as part of my learning journey in JavaScript.
+This is a simple JavaScript project for financial analysis. It processes a set of data of financial records to caculate financial metrics. This project was created as part of my learning journey in JavaScript.
 
 ## Description
 
 The project analyzes a set of data of financial records, each containing a date and corresponding profit/loss figure. It calculates the following:
 
 - Total number of months
-- Net total amount of Profit/Loss over the entire period.
-- Average change in Profit/Loss over the entire period.
+- Net total amount of Profit/Loss.
+- Average change in Profit/Loss.
 - Greatest increase in Profit/Loss.
 - Greatest decrease in Profit/loss.
 
