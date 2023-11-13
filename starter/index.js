@@ -112,6 +112,6 @@ for (var i = 0; i < totalMonths; i++) {
   previousMonthAmount = currentAmount;
 }
 
-
+var averageChange = totalChange / (totalMonths - 1);
 
 
