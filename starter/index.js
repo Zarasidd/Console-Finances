@@ -95,4 +95,22 @@ var greatestDecrease = ['', 0];
 var previousMonthAmoutn = finances[0][1];
 var totalChange = 0;
 
+for (var i = 0; i < totalMonths; i++) {
+  var currentMonth = finances[i][0];
+  var currentAmount = finances[i][1];
+  totalAmount += currentAmount;
+  if (i > 0) {
+    var monthlyChange = currentAmount - previousMonthAmount;
+    totalChange += monthlyChange;
+    if (monthlyChange > greatestIncrease[1]) {
+      greatestIncrease = [currentMonth, monthlyChange];
+    }
+    if (monthlyChange < greatestDecrease[1]) {
+      greatestDecrease = [currentMonth, monthlyChange];
+    }
+  }
+  previousMonthAmount = currentAmount;
+}
+
+
 
